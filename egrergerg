@@ -144,6 +144,22 @@ local Button_23 = Instance.new("ImageButton")
 local UICorner_47 = Instance.new("UICorner")
 local TextLabel_19 = Instance.new("TextLabel")
 local Pattern_13 = Instance.new("ImageLabel")
+local Giver = Instance.new("Frame")
+local UICorner_48 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local Pattern_14 = Instance.new("ImageLabel")
+local Button_24 = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local Button_25 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Button_26 = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local Button_27 = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Button_28 = Instance.new("TextButton")
+local UICorner_53 = Instance.new("UICorner")
+local Button_29 = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 
 -- Properties
@@ -258,8 +274,8 @@ SpecialGui.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
 SpecialGui.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 SpecialGui.BorderSizePixel = 0
 SpecialGui.ClipsDescendants = true
-SpecialGui.Position = UDim2.new(0.296928078, 0, 0.314279586, 0)
-SpecialGui.Size = UDim2.new(0.340522915, 0, 0.446082115, 0)
+SpecialGui.Position = UDim2.new(0.296928078, 0, 0.319508344, 0)
+SpecialGui.Size = UDim2.new(0.340522915, 0, 0.456539601, 0)
 
 UICorner_4.Parent = SpecialGui
 UICorner_4.CornerRadius = UDim.new(0, 6)
@@ -991,8 +1007,8 @@ ChooseRank.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
 ChooseRank.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 ChooseRank.BorderSizePixel = 0
 ChooseRank.LayoutOrder = 10
-ChooseRank.Position = UDim2.new(0.730955899, 0, 0.848789871, 0)
-ChooseRank.Size = UDim2.new(0.463831156, 0, 0.202913299, 0)
+ChooseRank.Position = UDim2.new(0.730955899, 0, 0.864341378, 0)
+ChooseRank.Size = UDim2.new(0.463831156, 0, 0.234016389, 0)
 
 UICorner_25.Parent = ChooseRank
 UICorner_25.CornerRadius = UDim.new(0, 6)
@@ -1004,7 +1020,7 @@ TextLabel_13.BackgroundTransparency = 1
 TextLabel_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
 TextLabel_13.BorderSizePixel = 0
 TextLabel_13.LayoutOrder = 1
-TextLabel_13.Position = UDim2.new(0.211727396, 0, 0.251916736, 0)
+TextLabel_13.Position = UDim2.new(0.29035145, 0, 0.240785941, 0)
 TextLabel_13.Size = UDim2.new(0.343476176, 0, 0.173058033, 0)
 TextLabel_13.Font = Enum.Font.FredokaOne
 TextLabel_13.Text = "Choose Rank"
@@ -1036,12 +1052,14 @@ Button_11.Parent = ChooseRank
 Button_11.BackgroundColor3 = Color3.new(1, 1, 1)
 Button_11.BorderColor3 = Color3.new(0, 0, 0)
 Button_11.BorderSizePixel = 0
-Button_11.Position = UDim2.new(0.441195935, 0, 0.13805382, 0)
+Button_11.Position = UDim2.new(0.507405639, 0, 0.126922905, 0)
 Button_11.Size = UDim2.new(0, 48, 0, 19)
 Button_11.Font = Enum.Font.Unknown
 Button_11.Text = "LT"
 Button_11.TextColor3 = Color3.new(0, 0, 0)
+Button_11.TextScaled = true
 Button_11.TextSize = 14
+Button_11.TextWrapped = true
 
 UICorner_26.Parent = Button_11
 UICorner_26.CornerRadius = UDim.new(0, 6)
@@ -1051,12 +1069,14 @@ Button_12.Parent = ChooseRank
 Button_12.BackgroundColor3 = Color3.new(1, 1, 1)
 Button_12.BorderColor3 = Color3.new(0, 0, 0)
 Button_12.BorderSizePixel = 0
-Button_12.Position = UDim2.new(0.69050771, 0, 0.13805382, 0)
+Button_12.Position = UDim2.new(0.740165114, 0, 0.138053671, 0)
 Button_12.Size = UDim2.new(0, 48, 0, 19)
 Button_12.Font = Enum.Font.Unknown
 Button_12.Text = "CPT"
 Button_12.TextColor3 = Color3.new(0, 0, 0)
+Button_12.TextScaled = true
 Button_12.TextSize = 14
+Button_12.TextWrapped = true
 
 UICorner_27.Parent = Button_12
 UICorner_27.CornerRadius = UDim.new(0, 6)
@@ -1071,7 +1091,9 @@ Button_13.Size = UDim2.new(0, 48, 0, 19)
 Button_13.Font = Enum.Font.Unknown
 Button_13.Text = "D/COM"
 Button_13.TextColor3 = Color3.new(0, 0, 0)
+Button_13.TextScaled = true
 Button_13.TextSize = 14
+Button_13.TextWrapped = true
 
 UICorner_28.Parent = Button_13
 UICorner_28.CornerRadius = UDim.new(0, 6)
@@ -1086,7 +1108,9 @@ Button_14.Size = UDim2.new(0, 48, 0, 19)
 Button_14.Font = Enum.Font.Unknown
 Button_14.Text = "SUPT"
 Button_14.TextColor3 = Color3.new(0, 0, 0)
+Button_14.TextScaled = true
 Button_14.TextSize = 14
+Button_14.TextWrapped = true
 
 UICorner_29.Parent = Button_14
 UICorner_29.CornerRadius = UDim.new(0, 6)
@@ -1101,7 +1125,9 @@ Button_15.Size = UDim2.new(0, 48, 0, 19)
 Button_15.Font = Enum.Font.Unknown
 Button_15.Text = "COL"
 Button_15.TextColor3 = Color3.new(0, 0, 0)
+Button_15.TextScaled = true
 Button_15.TextSize = 14
+Button_15.TextWrapped = true
 
 UICorner_30.Parent = Button_15
 UICorner_30.CornerRadius = UDim.new(0, 6)
@@ -1116,7 +1142,9 @@ Button_16.Size = UDim2.new(0, 48, 0, 19)
 Button_16.Font = Enum.Font.Unknown
 Button_16.Text = "CDR"
 Button_16.TextColor3 = Color3.new(0, 0, 0)
+Button_16.TextScaled = true
 Button_16.TextSize = 14
+Button_16.TextWrapped = true
 
 UICorner_31.Parent = Button_16
 UICorner_31.CornerRadius = UDim.new(0, 6)
@@ -1131,7 +1159,9 @@ Button_17.Size = UDim2.new(0, 48, 0, 19)
 Button_17.Font = Enum.Font.Unknown
 Button_17.Text = "COM"
 Button_17.TextColor3 = Color3.new(0, 0, 0)
+Button_17.TextScaled = true
 Button_17.TextSize = 14
+Button_17.TextWrapped = true
 
 UICorner_32.Parent = Button_17
 UICorner_32.CornerRadius = UDim.new(0, 6)
@@ -1146,7 +1176,9 @@ Button_18.Size = UDim2.new(0, 48, 0, 19)
 Button_18.Font = Enum.Font.Unknown
 Button_18.Text = "INS"
 Button_18.TextColor3 = Color3.new(0, 0, 0)
+Button_18.TextScaled = true
 Button_18.TextSize = 14
+Button_18.TextWrapped = true
 
 UICorner_33.Parent = Button_18
 UICorner_33.CornerRadius = UDim.new(0, 6)
@@ -1161,7 +1193,9 @@ Button_19.Size = UDim2.new(0, 48, 0, 19)
 Button_19.Font = Enum.Font.Unknown
 Button_19.Text = "AC"
 Button_19.TextColor3 = Color3.new(0, 0, 0)
+Button_19.TextScaled = true
 Button_19.TextSize = 14
+Button_19.TextWrapped = true
 
 UICorner_34.Parent = Button_19
 UICorner_34.CornerRadius = UDim.new(0, 6)
@@ -1176,7 +1210,9 @@ Button_20.Size = UDim2.new(0, 48, 0, 19)
 Button_20.Font = Enum.Font.Unknown
 Button_20.Text = "CHIEF"
 Button_20.TextColor3 = Color3.new(0, 0, 0)
+Button_20.TextScaled = true
 Button_20.TextSize = 14
+Button_20.TextWrapped = true
 
 UICorner_35.Parent = Button_20
 UICorner_35.CornerRadius = UDim.new(0, 6)
@@ -1502,12 +1538,161 @@ Pattern_13.ScaleType = Enum.ScaleType.Tile
 Pattern_13.SliceCenter = Rect.new(0, 256, 0, 256)
 Pattern_13.TileSize = UDim2.new(0, 30, 0, 30)
 
+Giver.Name = "Giver"
+Giver.Parent = SpecialGui
+Giver.AnchorPoint = Vector2.new(0.5, 0.5)
+Giver.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Giver.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Giver.BorderSizePixel = 0
+Giver.LayoutOrder = 10
+Giver.Position = UDim2.new(0.239593178, 0, 0.896151364, 0)
+Giver.Size = UDim2.new(0.463831156, 0, 0.160285935, 0)
+
+UICorner_48.Parent = Giver
+UICorner_48.CornerRadius = UDim.new(0, 6)
+
+TextLabel_20.Parent = Giver
+TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_20.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_20.BackgroundTransparency = 1
+TextLabel_20.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.LayoutOrder = 1
+TextLabel_20.Position = UDim2.new(0.247809783, 0, 0.231253162, 0)
+TextLabel_20.Size = UDim2.new(0.423916996, 0, 0.359242469, 0)
+TextLabel_20.Font = Enum.Font.FredokaOne
+TextLabel_20.Text = "Choose Item to give"
+TextLabel_20.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 23
+TextLabel_20.TextStrokeTransparency = 0
+TextLabel_20.TextWrapped = true
+TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_14.Name = "Pattern"
+Pattern_14.Parent = Giver
+Pattern_14.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_14.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_14.BackgroundTransparency = 1
+Pattern_14.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_14.Size = UDim2.new(1, 0, 1, 0)
+Pattern_14.ZIndex = 0
+Pattern_14.Image = "rbxassetid://300134974"
+Pattern_14.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_14.ImageTransparency = 0.8999999761581421
+Pattern_14.ScaleType = Enum.ScaleType.Tile
+Pattern_14.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_14.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_24.Name = "Button"
+Button_24.Parent = Giver
+Button_24.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_24.BorderColor3 = Color3.new(0, 0, 0)
+Button_24.BorderSizePixel = 0
+Button_24.Position = UDim2.new(0.0729039237, 0, 0.412657648, 0)
+Button_24.Size = UDim2.new(0, 61, 0, 16)
+Button_24.Font = Enum.Font.Unknown
+Button_24.Text = "MFD"
+Button_24.TextColor3 = Color3.new(0, 0, 0)
+Button_24.TextScaled = true
+Button_24.TextSize = 14
+Button_24.TextWrapped = true
+
+UICorner_49.Parent = Button_24
+UICorner_49.CornerRadius = UDim.new(0, 6)
+
+Button_25.Name = "Button"
+Button_25.Parent = Giver
+Button_25.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_25.BorderColor3 = Color3.new(0, 0, 0)
+Button_25.BorderSizePixel = 0
+Button_25.Position = UDim2.new(0.379124254, 0, 0.412657648, 0)
+Button_25.Size = UDim2.new(0, 61, 0, 16)
+Button_25.Font = Enum.Font.Unknown
+Button_25.Text = "ClipBoard"
+Button_25.TextColor3 = Color3.new(0, 0, 0)
+Button_25.TextScaled = true
+Button_25.TextSize = 14
+Button_25.TextWrapped = true
+
+UICorner_50.Parent = Button_25
+UICorner_50.CornerRadius = UDim.new(0, 6)
+
+Button_26.Name = "Button"
+Button_26.Parent = Giver
+Button_26.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_26.BorderColor3 = Color3.new(0, 0, 0)
+Button_26.BorderSizePixel = 0
+Button_26.Position = UDim2.new(0.678206444, 0, 0.410874277, 0)
+Button_26.Size = UDim2.new(0, 61, 0, 16)
+Button_26.Font = Enum.Font.Unknown
+Button_26.Text = "Base Access"
+Button_26.TextColor3 = Color3.new(0, 0, 0)
+Button_26.TextScaled = true
+Button_26.TextSize = 14
+Button_26.TextWrapped = true
+
+UICorner_51.Parent = Button_26
+UICorner_51.CornerRadius = UDim.new(0, 6)
+
+Button_27.Name = "Button"
+Button_27.Parent = Giver
+Button_27.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_27.BorderColor3 = Color3.new(0, 0, 0)
+Button_27.BorderSizePixel = 0
+Button_27.Position = UDim2.new(0.678206444, 0, 0.735891044, 0)
+Button_27.Size = UDim2.new(0, 61, 0, 16)
+Button_27.Font = Enum.Font.Unknown
+Button_27.Text = "Props"
+Button_27.TextColor3 = Color3.new(0, 0, 0)
+Button_27.TextScaled = true
+Button_27.TextSize = 14
+Button_27.TextWrapped = true
+
+UICorner_52.Parent = Button_27
+UICorner_52.CornerRadius = UDim.new(0, 6)
+
+Button_28.Name = "Button"
+Button_28.Parent = Giver
+Button_28.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_28.BorderColor3 = Color3.new(0, 0, 0)
+Button_28.BorderSizePixel = 0
+Button_28.Position = UDim2.new(0.379124254, 0, 0.737674475, 0)
+Button_28.Size = UDim2.new(0, 61, 0, 16)
+Button_28.Font = Enum.Font.Unknown
+Button_28.Text = "Breach Shield"
+Button_28.TextColor3 = Color3.new(0, 0, 0)
+Button_28.TextScaled = true
+Button_28.TextSize = 14
+Button_28.TextWrapped = true
+
+UICorner_53.Parent = Button_28
+UICorner_53.CornerRadius = UDim.new(0, 6)
+
+Button_29.Name = "Button"
+Button_29.Parent = Giver
+Button_29.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_29.BorderColor3 = Color3.new(0, 0, 0)
+Button_29.BorderSizePixel = 0
+Button_29.Position = UDim2.new(0.0729039237, 0, 0.737674475, 0)
+Button_29.Size = UDim2.new(0, 61, 0, 16)
+Button_29.Font = Enum.Font.Unknown
+Button_29.Text = "Riot Shield"
+Button_29.TextColor3 = Color3.new(0, 0, 0)
+Button_29.TextScaled = true
+Button_29.TextSize = 14
+Button_29.TextWrapped = true
+
+UICorner_54.Parent = Button_29
+UICorner_54.CornerRadius = UDim.new(0, 6)
+
 UIAspectRatioConstraint_2.Parent = Container
 UIAspectRatioConstraint_2.AspectRatio = 1.7777777910232544
 
 -- Scripts
 
-local function SQHSY_fake_script() -- Button.LocalScript 
+local function BEBG_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -1517,8 +1702,8 @@ local function SQHSY_fake_script() -- Button.LocalScript
 	end)
 	
 end
-coroutine.wrap(SQHSY_fake_script)()
-local function TNFT_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(BEBG_fake_script)()
+local function MTDP_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local button = script.Parent
@@ -1537,8 +1722,8 @@ local function TNFT_fake_script() -- Button_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(TNFT_fake_script)()
-local function INALB_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(MTDP_fake_script)()
+local function QTXYZ_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -1557,8 +1742,8 @@ local function INALB_fake_script() -- Button_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(INALB_fake_script)()
-local function NGOB_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(QTXYZ_fake_script)()
+local function MXMZVHV_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -1577,8 +1762,8 @@ local function NGOB_fake_script() -- Button_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(NGOB_fake_script)()
-local function EEADDKX_fake_script() -- Button_5.LocalScript 
+coroutine.wrap(MXMZVHV_fake_script)()
+local function YBAP_fake_script() -- Button_5.LocalScript 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local button = script.Parent
@@ -1597,8 +1782,8 @@ local function EEADDKX_fake_script() -- Button_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(EEADDKX_fake_script)()
-local function TBGUDQ_fake_script() -- Button_6.LocalScript 
+coroutine.wrap(YBAP_fake_script)()
+local function WHXDAOC_fake_script() -- Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local button = script.Parent
@@ -1617,8 +1802,8 @@ local function TBGUDQ_fake_script() -- Button_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(TBGUDQ_fake_script)()
-local function OTICGJ_fake_script() -- Button_7.LocalScript 
+coroutine.wrap(WHXDAOC_fake_script)()
+local function GYWS_fake_script() -- Button_7.LocalScript 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local button = script.Parent
@@ -1637,8 +1822,8 @@ local function OTICGJ_fake_script() -- Button_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(OTICGJ_fake_script)()
-local function WZCOYI_fake_script() -- Button_8.LocalScript 
+coroutine.wrap(GYWS_fake_script)()
+local function KZKS_fake_script() -- Button_8.LocalScript 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local button = script.Parent
@@ -1657,8 +1842,8 @@ local function WZCOYI_fake_script() -- Button_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(WZCOYI_fake_script)()
-local function BMHLXV_fake_script() -- Button_9.LocalScript 
+coroutine.wrap(KZKS_fake_script)()
+local function GPTM_fake_script() -- Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Button_9)
 
 	local button = script.Parent
@@ -1677,8 +1862,8 @@ local function BMHLXV_fake_script() -- Button_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(BMHLXV_fake_script)()
-local function AKNMX_fake_script() -- Button_10.LocalScript 
+coroutine.wrap(GPTM_fake_script)()
+local function HYJRFP_fake_script() -- Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Button_10)
 
 	local button = script.Parent
@@ -1710,8 +1895,8 @@ local function AKNMX_fake_script() -- Button_10.LocalScript
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(AKNMX_fake_script)()
-local function OFAT_fake_script() -- Button_11.LocalScript 
+coroutine.wrap(HYJRFP_fake_script)()
+local function PTSD_fake_script() -- Button_11.LocalScript 
 	local script = Instance.new('LocalScript', Button_11)
 
 	local button = script.Parent
@@ -1747,8 +1932,8 @@ local function OFAT_fake_script() -- Button_11.LocalScript
 	end)
 	
 end
-coroutine.wrap(OFAT_fake_script)()
-local function DWDS_fake_script() -- Button_12.LocalScript 
+coroutine.wrap(PTSD_fake_script)()
+local function ECOLCJI_fake_script() -- Button_12.LocalScript 
 	local script = Instance.new('LocalScript', Button_12)
 
 	local button = script.Parent
@@ -1784,8 +1969,8 @@ local function DWDS_fake_script() -- Button_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(DWDS_fake_script)()
-local function OEBZS_fake_script() -- Button_13.LocalScript 
+coroutine.wrap(ECOLCJI_fake_script)()
+local function EVDG_fake_script() -- Button_13.LocalScript 
 	local script = Instance.new('LocalScript', Button_13)
 
 	local button = script.Parent
@@ -1821,8 +2006,8 @@ local function OEBZS_fake_script() -- Button_13.LocalScript
 	end)
 	
 end
-coroutine.wrap(OEBZS_fake_script)()
-local function LTEZNNJ_fake_script() -- Button_14.LocalScript 
+coroutine.wrap(EVDG_fake_script)()
+local function KZPNYIO_fake_script() -- Button_14.LocalScript 
 	local script = Instance.new('LocalScript', Button_14)
 
 	local button = script.Parent
@@ -1858,8 +2043,8 @@ local function LTEZNNJ_fake_script() -- Button_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(LTEZNNJ_fake_script)()
-local function YBQXRQA_fake_script() -- Button_15.LocalScript 
+coroutine.wrap(KZPNYIO_fake_script)()
+local function HZHOL_fake_script() -- Button_15.LocalScript 
 	local script = Instance.new('LocalScript', Button_15)
 
 	local button = script.Parent
@@ -1895,8 +2080,8 @@ local function YBQXRQA_fake_script() -- Button_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(YBQXRQA_fake_script)()
-local function RRDQVZ_fake_script() -- Button_16.LocalScript 
+coroutine.wrap(HZHOL_fake_script)()
+local function JIIU_fake_script() -- Button_16.LocalScript 
 	local script = Instance.new('LocalScript', Button_16)
 
 	local button = script.Parent
@@ -1932,8 +2117,8 @@ local function RRDQVZ_fake_script() -- Button_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(RRDQVZ_fake_script)()
-local function UJZOP_fake_script() -- Button_17.LocalScript 
+coroutine.wrap(JIIU_fake_script)()
+local function GDXZCSO_fake_script() -- Button_17.LocalScript 
 	local script = Instance.new('LocalScript', Button_17)
 
 	local button = script.Parent
@@ -1969,8 +2154,8 @@ local function UJZOP_fake_script() -- Button_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(UJZOP_fake_script)()
-local function GFLKTH_fake_script() -- Button_18.LocalScript 
+coroutine.wrap(GDXZCSO_fake_script)()
+local function FQYDR_fake_script() -- Button_18.LocalScript 
 	local script = Instance.new('LocalScript', Button_18)
 
 	local button = script.Parent
@@ -2006,8 +2191,8 @@ local function GFLKTH_fake_script() -- Button_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(GFLKTH_fake_script)()
-local function YAKCHNJ_fake_script() -- Button_19.LocalScript 
+coroutine.wrap(FQYDR_fake_script)()
+local function RVRHCNN_fake_script() -- Button_19.LocalScript 
 	local script = Instance.new('LocalScript', Button_19)
 
 	local button = script.Parent
@@ -2043,8 +2228,8 @@ local function YAKCHNJ_fake_script() -- Button_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(YAKCHNJ_fake_script)()
-local function QKATKME_fake_script() -- Button_20.LocalScript 
+coroutine.wrap(RVRHCNN_fake_script)()
+local function CVPHJ_fake_script() -- Button_20.LocalScript 
 	local script = Instance.new('LocalScript', Button_20)
 
 	local button = script.Parent
@@ -2080,8 +2265,8 @@ local function QKATKME_fake_script() -- Button_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(QKATKME_fake_script)()
-local function LRQZHEG_fake_script() -- Button_21.LocalScript 
+coroutine.wrap(CVPHJ_fake_script)()
+local function VOUI_fake_script() -- Button_21.LocalScript 
 	local script = Instance.new('LocalScript', Button_21)
 
 	local button = script.Parent
@@ -2137,8 +2322,8 @@ local function LRQZHEG_fake_script() -- Button_21.LocalScript
 	end
 	button.MouseButton1Click:Connect(toggleFunctionality)
 end
-coroutine.wrap(LRQZHEG_fake_script)()
-local function UAAOAM_fake_script() -- Button_22.LocalScript 
+coroutine.wrap(VOUI_fake_script)()
+local function WHWWB_fake_script() -- Button_22.LocalScript 
 	local script = Instance.new('LocalScript', Button_22)
 
 	local button = script.Parent
@@ -2183,8 +2368,8 @@ local function UAAOAM_fake_script() -- Button_22.LocalScript
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(UAAOAM_fake_script)()
-local function WXFDMH_fake_script() -- Button_23.LocalScript 
+coroutine.wrap(WHWWB_fake_script)()
+local function AXBFTND_fake_script() -- Button_23.LocalScript 
 	local script = Instance.new('LocalScript', Button_23)
 
 	local button = script.Parent
@@ -2229,4 +2414,166 @@ local function WXFDMH_fake_script() -- Button_23.LocalScript
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(WXFDMH_fake_script)()
+coroutine.wrap(AXBFTND_fake_script)()
+local function LZHKAYF_fake_script() -- Button_24.LocalScript 
+	local script = Instance.new('LocalScript', Button_24)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "MFD"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(LZHKAYF_fake_script)()
+local function LKFD_fake_script() -- Button_25.LocalScript 
+	local script = Instance.new('LocalScript', Button_25)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "Clipboard"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(LKFD_fake_script)()
+local function QPBCNL_fake_script() -- Button_26.LocalScript 
+	local script = Instance.new('LocalScript', Button_26)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "Base Access"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(QPBCNL_fake_script)()
+local function XHVL_fake_script() -- Button_27.LocalScript 
+	local script = Instance.new('LocalScript', Button_27)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "Props"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(XHVL_fake_script)()
+local function CNWQHWX_fake_script() -- Button_28.LocalScript 
+	local script = Instance.new('LocalScript', Button_28)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "Breach Shield"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(CNWQHWX_fake_script)()
+local function WPLME_fake_script() -- Button_29.LocalScript 
+	local script = Instance.new('LocalScript', Button_29)
+
+	local button = script.Parent
+	local replicatedStorage = game:GetService("ReplicatedStorage")
+	local players = game:GetService("Players")
+	local player = players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local toolName = "Riot Shield"
+		local toolsFolder = replicatedStorage:FindFirstChild("Cache")
+			and replicatedStorage.Cache:FindFirstChild("Tools")
+	
+		if toolsFolder then
+			local tool = toolsFolder:FindFirstChild(toolName)
+			if tool and tool:IsA("Tool") then
+				local clonedTool = tool:Clone()
+				clonedTool.Parent = player:WaitForChild("Backpack")
+			else
+				warn("Инструмент с именем " .. toolName .. " не найден или не является Tool.")
+			end
+		else
+			warn("Папка Tools в ReplicatedStorage.Cache не найдена.")
+		end
+	end)
+end
+coroutine.wrap(WPLME_fake_script)()

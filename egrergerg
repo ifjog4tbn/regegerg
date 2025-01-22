@@ -1,3 +1,5 @@
+-- Instances
+
 local AdminPanel = Instance.new("ScreenGui")
 local Container = Instance.new("Frame")
 local Togglers = Instance.new("Frame")
@@ -1692,7 +1694,7 @@ UIAspectRatioConstraint_2.AspectRatio = 1.7777777910232544
 
 -- Scripts
 
-local function BEBG_fake_script() -- Button.LocalScript 
+local function LNPBAKM_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -1702,8 +1704,8 @@ local function BEBG_fake_script() -- Button.LocalScript
 	end)
 	
 end
-coroutine.wrap(BEBG_fake_script)()
-local function MTDP_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(LNPBAKM_fake_script)()
+local function JAFJU_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local button = script.Parent
@@ -1722,8 +1724,8 @@ local function MTDP_fake_script() -- Button_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(MTDP_fake_script)()
-local function QTXYZ_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(JAFJU_fake_script)()
+local function CVDWT_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -1742,8 +1744,8 @@ local function QTXYZ_fake_script() -- Button_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(QTXYZ_fake_script)()
-local function MXMZVHV_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(CVDWT_fake_script)()
+local function RGAZP_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -1762,8 +1764,8 @@ local function MXMZVHV_fake_script() -- Button_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(MXMZVHV_fake_script)()
-local function YBAP_fake_script() -- Button_5.LocalScript 
+coroutine.wrap(RGAZP_fake_script)()
+local function ULFA_fake_script() -- Button_5.LocalScript 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local button = script.Parent
@@ -1782,8 +1784,8 @@ local function YBAP_fake_script() -- Button_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(YBAP_fake_script)()
-local function WHXDAOC_fake_script() -- Button_6.LocalScript 
+coroutine.wrap(ULFA_fake_script)()
+local function ZALT_fake_script() -- Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local button = script.Parent
@@ -1802,8 +1804,8 @@ local function WHXDAOC_fake_script() -- Button_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(WHXDAOC_fake_script)()
-local function GYWS_fake_script() -- Button_7.LocalScript 
+coroutine.wrap(ZALT_fake_script)()
+local function LOACZDH_fake_script() -- Button_7.LocalScript 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local button = script.Parent
@@ -1822,8 +1824,8 @@ local function GYWS_fake_script() -- Button_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(GYWS_fake_script)()
-local function KZKS_fake_script() -- Button_8.LocalScript 
+coroutine.wrap(LOACZDH_fake_script)()
+local function ETYJY_fake_script() -- Button_8.LocalScript 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local button = script.Parent
@@ -1842,8 +1844,8 @@ local function KZKS_fake_script() -- Button_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(KZKS_fake_script)()
-local function GPTM_fake_script() -- Button_9.LocalScript 
+coroutine.wrap(ETYJY_fake_script)()
+local function VBHB_fake_script() -- Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Button_9)
 
 	local button = script.Parent
@@ -1862,8 +1864,8 @@ local function GPTM_fake_script() -- Button_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(GPTM_fake_script)()
-local function HYJRFP_fake_script() -- Button_10.LocalScript 
+coroutine.wrap(VBHB_fake_script)()
+local function UBCL_fake_script() -- Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Button_10)
 
 	local button = script.Parent
@@ -1895,8 +1897,8 @@ local function HYJRFP_fake_script() -- Button_10.LocalScript
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(HYJRFP_fake_script)()
-local function PTSD_fake_script() -- Button_11.LocalScript 
+coroutine.wrap(UBCL_fake_script)()
+local function OPEVRW_fake_script() -- Button_11.LocalScript 
 	local script = Instance.new('LocalScript', Button_11)
 
 	local button = script.Parent
@@ -1932,8 +1934,8 @@ local function PTSD_fake_script() -- Button_11.LocalScript
 	end)
 	
 end
-coroutine.wrap(PTSD_fake_script)()
-local function ECOLCJI_fake_script() -- Button_12.LocalScript 
+coroutine.wrap(OPEVRW_fake_script)()
+local function WCRY_fake_script() -- Button_12.LocalScript 
 	local script = Instance.new('LocalScript', Button_12)
 
 	local button = script.Parent
@@ -1969,8 +1971,8 @@ local function ECOLCJI_fake_script() -- Button_12.LocalScript
 	end)
 	
 end
-coroutine.wrap(ECOLCJI_fake_script)()
-local function EVDG_fake_script() -- Button_13.LocalScript 
+coroutine.wrap(WCRY_fake_script)()
+local function HPVMVBB_fake_script() -- Button_13.LocalScript 
 	local script = Instance.new('LocalScript', Button_13)
 
 	local button = script.Parent
@@ -2006,8 +2008,8 @@ local function EVDG_fake_script() -- Button_13.LocalScript
 	end)
 	
 end
-coroutine.wrap(EVDG_fake_script)()
-local function KZPNYIO_fake_script() -- Button_14.LocalScript 
+coroutine.wrap(HPVMVBB_fake_script)()
+local function QKBPFCA_fake_script() -- Button_14.LocalScript 
 	local script = Instance.new('LocalScript', Button_14)
 
 	local button = script.Parent
@@ -2043,8 +2045,8 @@ local function KZPNYIO_fake_script() -- Button_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(KZPNYIO_fake_script)()
-local function HZHOL_fake_script() -- Button_15.LocalScript 
+coroutine.wrap(QKBPFCA_fake_script)()
+local function HXFJ_fake_script() -- Button_15.LocalScript 
 	local script = Instance.new('LocalScript', Button_15)
 
 	local button = script.Parent
@@ -2080,8 +2082,8 @@ local function HZHOL_fake_script() -- Button_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(HZHOL_fake_script)()
-local function JIIU_fake_script() -- Button_16.LocalScript 
+coroutine.wrap(HXFJ_fake_script)()
+local function HBOGY_fake_script() -- Button_16.LocalScript 
 	local script = Instance.new('LocalScript', Button_16)
 
 	local button = script.Parent
@@ -2117,8 +2119,8 @@ local function JIIU_fake_script() -- Button_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(JIIU_fake_script)()
-local function GDXZCSO_fake_script() -- Button_17.LocalScript 
+coroutine.wrap(HBOGY_fake_script)()
+local function HAFVZ_fake_script() -- Button_17.LocalScript 
 	local script = Instance.new('LocalScript', Button_17)
 
 	local button = script.Parent
@@ -2154,8 +2156,8 @@ local function GDXZCSO_fake_script() -- Button_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(GDXZCSO_fake_script)()
-local function FQYDR_fake_script() -- Button_18.LocalScript 
+coroutine.wrap(HAFVZ_fake_script)()
+local function RCUVHC_fake_script() -- Button_18.LocalScript 
 	local script = Instance.new('LocalScript', Button_18)
 
 	local button = script.Parent
@@ -2191,8 +2193,8 @@ local function FQYDR_fake_script() -- Button_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(FQYDR_fake_script)()
-local function RVRHCNN_fake_script() -- Button_19.LocalScript 
+coroutine.wrap(RCUVHC_fake_script)()
+local function GJQGFM_fake_script() -- Button_19.LocalScript 
 	local script = Instance.new('LocalScript', Button_19)
 
 	local button = script.Parent
@@ -2228,8 +2230,8 @@ local function RVRHCNN_fake_script() -- Button_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(RVRHCNN_fake_script)()
-local function CVPHJ_fake_script() -- Button_20.LocalScript 
+coroutine.wrap(GJQGFM_fake_script)()
+local function LMHURD_fake_script() -- Button_20.LocalScript 
 	local script = Instance.new('LocalScript', Button_20)
 
 	local button = script.Parent
@@ -2265,8 +2267,8 @@ local function CVPHJ_fake_script() -- Button_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(CVPHJ_fake_script)()
-local function VOUI_fake_script() -- Button_21.LocalScript 
+coroutine.wrap(LMHURD_fake_script)()
+local function APZRV_fake_script() -- Button_21.LocalScript 
 	local script = Instance.new('LocalScript', Button_21)
 
 	local button = script.Parent
@@ -2322,39 +2324,42 @@ local function VOUI_fake_script() -- Button_21.LocalScript
 	end
 	button.MouseButton1Click:Connect(toggleFunctionality)
 end
-coroutine.wrap(VOUI_fake_script)()
-local function WHWWB_fake_script() -- Button_22.LocalScript 
+coroutine.wrap(APZRV_fake_script)()
+local function FVNXJ_fake_script() -- Button_22.LocalScript 
 	local script = Instance.new('LocalScript', Button_22)
 
 	local button = script.Parent
 	local players = game:GetService("Players")
 	local workspace = game:GetService("Workspace")
+	local tweenService = game:GetService("TweenService")
+	
 	local isActive = false
 	local originalPosition = UDim2.new(0, 0, 0.5, 0)
 	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
-	local tweenService = game:GetService("TweenService")
+	local localPlayer = players.LocalPlayer
+	
 	local function tweenButton(targetPosition)
 		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 		local tween = tweenService:Create(button, tweenInfo, {Position = targetPosition})
 		tween:Play()
 	end
+	
 	local function toggleAuthorizedVisibility(state)
-		for _, player in pairs(players:GetPlayers()) do
-			local playerId = tostring(player.UserId)
-			local display = workspace:FindFirstChild("Organizer")
-				and workspace.Organizer:FindFirstChild("PlayerDisplays")
-				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+		local playerId = tostring(localPlayer.UserId)
+		local display = workspace:FindFirstChild("Organizer")
+			and workspace.Organizer:FindFirstChild("PlayerDisplays")
+			and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
 	
-			if display then
-				local extraFrame = display:FindFirstChild("Main")
-					and display.Main:FindFirstChild("ExtraFrame")
+		if display then
+			local extraFrame = display:FindFirstChild("Main")
+				and display.Main:FindFirstChild("ExtraFrame")
 	
-				if extraFrame and extraFrame:FindFirstChild("Authorized") then
-					extraFrame.Authorized.Visible = state
-				end
+			if extraFrame and extraFrame:FindFirstChild("Authorized") then
+				extraFrame.Authorized.Visible = state
 			end
 		end
 	end
+	
 	local function toggleFunctionality()
 		isActive = not isActive
 		if isActive then
@@ -2368,39 +2373,42 @@ local function WHWWB_fake_script() -- Button_22.LocalScript
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(WHWWB_fake_script)()
-local function AXBFTND_fake_script() -- Button_23.LocalScript 
+coroutine.wrap(FVNXJ_fake_script)()
+local function QPKDVE_fake_script() -- Button_23.LocalScript 
 	local script = Instance.new('LocalScript', Button_23)
 
 	local button = script.Parent
 	local players = game:GetService("Players")
 	local workspace = game:GetService("Workspace")
+	local tweenService = game:GetService("TweenService")
+	
 	local isActive = false
 	local originalPosition = UDim2.new(0, 0, 0.5, 0)
 	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
-	local tweenService = game:GetService("TweenService")
+	local localPlayer = players.LocalPlayer
+	
 	local function tweenButton(targetPosition)
 		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 		local tween = tweenService:Create(button, tweenInfo, {Position = targetPosition})
 		tween:Play()
 	end
-	local function toggleAuthorizedVisibility(state)
-		for _, player in pairs(players:GetPlayers()) do
-			local playerId = tostring(player.UserId)
-			local display = workspace:FindFirstChild("Organizer")
-				and workspace.Organizer:FindFirstChild("PlayerDisplays")
-				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
 	
-			if display then
-				local extraFrame = display:FindFirstChild("Main")
-					and display.Main:FindFirstChild("ExtraFrame")
+	local function toggleKillOnSightVisibility(state)
+		local playerId = tostring(localPlayer.UserId)
+		local display = workspace:FindFirstChild("Organizer")
+			and workspace.Organizer:FindFirstChild("PlayerDisplays")
+			and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
 	
-				if extraFrame and extraFrame:FindFirstChild("KillOnSight") then
-					extraFrame.Authorized.Visible = state
-				end
+		if display then
+			local extraFrame = display:FindFirstChild("Main")
+				and display.Main:FindFirstChild("ExtraFrame")
+	
+			if extraFrame and extraFrame:FindFirstChild("KillOnSight") then
+				extraFrame.KillOnSight.Visible = state
 			end
 		end
 	end
+	
 	local function toggleFunctionality()
 		isActive = not isActive
 		if isActive then
@@ -2408,14 +2416,14 @@ local function AXBFTND_fake_script() -- Button_23.LocalScript
 		else
 			tweenButton(originalPosition)
 		end
-		toggleAuthorizedVisibility(isActive)
+		toggleKillOnSightVisibility(isActive)
 	end
 	
 	button.MouseButton1Click:Connect(toggleFunctionality)
 	
 end
-coroutine.wrap(AXBFTND_fake_script)()
-local function LZHKAYF_fake_script() -- Button_24.LocalScript 
+coroutine.wrap(QPKDVE_fake_script)()
+local function KYVWUP_fake_script() -- Button_24.LocalScript 
 	local script = Instance.new('LocalScript', Button_24)
 
 	local button = script.Parent
@@ -2441,8 +2449,8 @@ local function LZHKAYF_fake_script() -- Button_24.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LZHKAYF_fake_script)()
-local function LKFD_fake_script() -- Button_25.LocalScript 
+coroutine.wrap(KYVWUP_fake_script)()
+local function CFNPZLU_fake_script() -- Button_25.LocalScript 
 	local script = Instance.new('LocalScript', Button_25)
 
 	local button = script.Parent
@@ -2468,8 +2476,8 @@ local function LKFD_fake_script() -- Button_25.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LKFD_fake_script)()
-local function QPBCNL_fake_script() -- Button_26.LocalScript 
+coroutine.wrap(CFNPZLU_fake_script)()
+local function LLWG_fake_script() -- Button_26.LocalScript 
 	local script = Instance.new('LocalScript', Button_26)
 
 	local button = script.Parent
@@ -2495,8 +2503,8 @@ local function QPBCNL_fake_script() -- Button_26.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QPBCNL_fake_script)()
-local function XHVL_fake_script() -- Button_27.LocalScript 
+coroutine.wrap(LLWG_fake_script)()
+local function WOOJ_fake_script() -- Button_27.LocalScript 
 	local script = Instance.new('LocalScript', Button_27)
 
 	local button = script.Parent
@@ -2522,8 +2530,8 @@ local function XHVL_fake_script() -- Button_27.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XHVL_fake_script)()
-local function CNWQHWX_fake_script() -- Button_28.LocalScript 
+coroutine.wrap(WOOJ_fake_script)()
+local function STHO_fake_script() -- Button_28.LocalScript 
 	local script = Instance.new('LocalScript', Button_28)
 
 	local button = script.Parent
@@ -2549,8 +2557,8 @@ local function CNWQHWX_fake_script() -- Button_28.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CNWQHWX_fake_script)()
-local function WPLME_fake_script() -- Button_29.LocalScript 
+coroutine.wrap(STHO_fake_script)()
+local function RAZFLPE_fake_script() -- Button_29.LocalScript 
 	local script = Instance.new('LocalScript', Button_29)
 
 	local button = script.Parent
@@ -2576,4 +2584,4 @@ local function WPLME_fake_script() -- Button_29.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WPLME_fake_script)()
+coroutine.wrap(RAZFLPE_fake_script)()
